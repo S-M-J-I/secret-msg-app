@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="icon" type="image/png" href="icon-01.png">
+    
+    <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
+    <!-- <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form">
+        <div class="row">
+            <div class="col s8 offset-s2">
+
+                <div id="msg-show" class="card-panel hide">
+                    <h4></h4>
+                    <div>
+                        <a href="./index.html">Create Your Own Secret Message</a>
+                    </div>
+                </div>
+
+
+                <div id="msg-form" class="card-panel">
+                    <form action="">
+                        <label for="">Enter A Secret Message</label>
+                        <input class='msg-input' type="text" size="300">
+                        <button class="btn">Create</button>
+                    </form>
+                </div>
+
+                <div id="link-form" class="card-panel hide">
+                    <div>
+                        Share This Link With A Friend:
+                        <input class="link-input" type="text" size="300">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
